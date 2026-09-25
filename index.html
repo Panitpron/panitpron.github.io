@@ -20,11 +20,31 @@
         }
 
         header {
-            background: linear-gradient(135deg, #283593, #5c6bc0);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
+    background: linear-gradient(135deg, #283593, #5c6bc0);
+    color: white;
+    padding: 40px 20px;
+}
+
+.profile-header {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.8);
+    flex-shrink: 0;
+}
+
+.profile-info {
+    text-align: left;
+}
 
         .profile {
             width: 125px;
